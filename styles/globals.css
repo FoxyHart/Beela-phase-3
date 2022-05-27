@@ -1,0 +1,122 @@
+/* Bootstrap icon import */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+:root {
+  --color-lgrey: #f2f2f2;
+  --color-grey: #cdcbcb;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lora", serif;
+  font-weight: 600;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+hr {
+  width: 75%;
+  margin: auto;
+}
+
+span {
+  font-weight: 550;
+}
+
+#wrapper {
+  height: 100vh !important;
+}
+
+#hero {
+  background-color: var(--color-lgrey);
+}
+
+#steps {
+  background-color: var(--color-grey);
+}
+
+#testimonials {
+  background-color: var(--color-grey);
+}
+
+#listen-button {
+  min-width: 250px;
+}
+
+.rectangle {
+  width: 420px;
+  height: 240px;
+  background-color: var(--color-grey);
+  border: 1px solid #000000;
+}
+
+.avatar {
+  width: 80px;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+#avatar-image {
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -42px;
+  border: 5px solid white;
+}
+
+#header-text {
+  padding-left: 96px;
+  padding-right: 96px;
+}
+
+#card-deck-steps {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#card-m3-steps {
+  max-width: 370px;
+}
+
+#card-m3-testimonials {
+  max-width: 390px;
+}
+
+#bullet-list {
+  text-align: left;
+}
+
+#container-hex {
+  display: flex;
+  --s: 150px; /* size  */
+}
+#card-m5-steps-hex {
+  width: var(--s);
+  margin: var(--m);
+  height: calc(var(--s) * 1.1547);
+  display: inline-flexbox;
+  font-size: initial;
+  clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+}
+#FAQ {
+  background-color: var(--color-lgrey);
+}
